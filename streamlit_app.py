@@ -1,5 +1,6 @@
 import streamlit as st
-from llama_index import VectorStoreIndex,SimpleDirectoryReader,ServiceContext
+from llama_index import SimpleDirectoryReader,ServiceContext
+from llama_index.vector_stores import VectorStoreIndex
 from llama_index.prompts.prompts import SimpleInputPrompt
 from langchain.embeddings import HuggingFaceEmbeddings
 
