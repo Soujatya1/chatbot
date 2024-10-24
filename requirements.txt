@@ -1,5 +1,5 @@
 streamlit
-llama-index
+llama_index
 pypdf
 langchain_groq
 langchain
